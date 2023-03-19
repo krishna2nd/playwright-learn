@@ -1,0 +1,18 @@
+{
+  "name": "playwright-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@playwright/test": "^1.32.0-alpha-mar-18-2023",
+    "playwright": "^1.32.0-alpha-mar-18-2023"
+  }
+}
