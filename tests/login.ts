@@ -10,11 +10,6 @@ export const selectors = {
 };
 
 export const tryLogin = async (page: Page, credentials: HTTPCredentials) => {
-  // await page.waitForURL((url: URL) => url.host.toLowerCase().includes(MS_LOGIN_URL.host), {
-  //   waitUntil: 'domcontentloaded'
-  // });
-  // if (page.url().toLowerCase().includes(TAC_URL.host)) return
-
   try {
     await page.waitForSelector(selectors.email);
     await page.locator(selectors.email).fill(credentials.username);

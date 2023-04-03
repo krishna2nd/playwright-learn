@@ -12,7 +12,11 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "@axe-core/playwright": "^4.6.2-alpha.376",
     "@playwright/test": "^1.32.0-alpha-mar-18-2023",
-    "playwright": "^1.32.0-alpha-mar-18-2023"
+    "axe-html-reporter": "^2.2.3",
+    "lodash": "^4.17.21",
+    "playwright": "^1.32.0-alpha-mar-18-2023",
+    "uuid": "^9.0.0"
   }
 }
